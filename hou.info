@@ -1,0 +1,33 @@
+name = Hou
+description = Standalone Hou Theme
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.png
+
+stylesheets[all][] = css/style.css
+
+; Core Regions -- Required
+regions[page_top] 		= Page top 
+regions[content] 		= Content
+regions[page_bottom] 	= Page bottom
+
+;Core Regions -- 
+regions[header] 		= Header
+regions[highlighted] 	= Highlighted
+regions[help] 			= Help
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] 		= Footer
+
+;Custom Regions
+regions[navigation] 	= Navigation
+regions[copyright]  	= Copyright
+regions[biography]		= Biography
+
+features[] = name
+features[] = logo
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = main_menu
+features[] = secondary_menu
+features[] = favicon
